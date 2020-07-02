@@ -1,0 +1,1 @@
+## kubectl delete deployment/pingpong cronjob/sleep
