@@ -1,0 +1,34 @@
+title: |
+  Deploying and Scaling Microservices
+  with Docker and Kubernetes
+
+chat: "[Slack](https://dockercommunity.slack.com/messages/C7GKACWDV)"
+#chat: "[Gitter](https://gitter.im/jpetazzo/workshop-yyyymmdd-city)"
+
+exclude:
+- self-paced
+- snap
+
+chapters:
+- common/title.md
+- logistics.md
+- common/intro.md
+- common/toc.md
+- - common/prereqs.md
+  - kube/versions-k8s.md
+  - common/sampleapp.md
+- - kube/concepts-k8s.md
+  - common/declarative.md
+  - kube/declarative.md
+  - kube/kubenet.md
+  - kube/kubectlget.md
+  - kube/setup-k8s.md
+  - kube/kubectlrun.md
+- - kube/kubectlexpose.md
+  - kube/ourapponkube.md
+  - kube/dashboard.md
+- - kube/kubectlscale.md
+  - kube/daemonset.md
+  - kube/rollout.md
+  - kube/whatsnext.md
+  - common/thankyou.md
